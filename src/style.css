@@ -28,7 +28,8 @@ h3 {
 }
 
 h3:hover {
-  color: #86dbff;
+  color: #d7f3ff;
+  text-shadow: 0 0 30px #86dbff;
 }
 
 h4 {
@@ -85,4 +86,27 @@ h4 {
 .hover-underline-animation:hover:after {
   width: 100%;
   left: 0;
+}
+
+.primary {
+  margin-top: 100px;
+}
+.secondary {
+  margin-top: 200px;
+}
+.contact-container {
+  margin-top: 50px;
+}
+.contact-heading {
+  color: #86dbff;
+  margin-top: 30px;
+}
+.contact-details a {
+  color: #fff;
+  margin-top: 10px;
+}
+@media (max-width: 600px) {
+  .contact-container {
+    text-align: center;
+  }
 }
