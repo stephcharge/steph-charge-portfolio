@@ -27,6 +27,12 @@ h3:hover {
   color: #86dbff;
 }
 
+@media (hover) {
+  h3:hover {
+    color: #86dbff;
+  }
+}
+
 h4 {
   margin: 10px 0px;
   color: white;
