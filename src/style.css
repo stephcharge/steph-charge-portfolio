@@ -10,12 +10,13 @@ h1 {
 }
 
 h2 {
-  padding: 100px 0px 0px 0px;
+  padding: 220px 0px 15px 0px;
   color: white;
   font-family: "Cutive Mono", monospace;
 }
 
 h4 {
+  margin: 10px 0px;
   color: white;
   font-family: "Cutive Mono", monospace;
   font-weight: bolder;
