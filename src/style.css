@@ -18,16 +18,18 @@ h2 {
   color: white;
   font-family: "Cutive Mono", monospace;
 }
-
 h3 {
-  color: white;
   font-family: "Domine", serif;
   font-size: 60px;
   margin: 80px 0px 20px 0px;
+}
+.glow-animation {
+  color: white;
+  font-family: "Domine", serif;
   transition: 200ms;
 }
 
-h3:hover {
+.glow-animation:hover {
   color: #d7f3ff;
   text-shadow: 0 0 30px #86dbff;
 }
@@ -37,12 +39,29 @@ h4 {
   color: white;
   font-family: "Cutive Mono", monospace;
   font-weight: bolder;
+  margin-bottom: 100px;
 }
+
+p {
+  color: white;
+  font-size: 15px;
+  margin: 30px 0px;
+}
+
 .btn {
   font-size: 20px;
   cursor: pointer;
   font-family: "Cutive Mono", monospace;
-  margin: 100px 0px;
+}
+.btn-2 {
+  color: #d7f3ff;
+  font-family: "Cutive Mono", monospace;
+  padding: 50px;
+  transition: 100ms;
+}
+.btn-2:hover {
+  color: #d7f3ff;
+  text-shadow: 0 0 30px #86dbff;
 }
 .sky-neon {
   color: #86dbff;
@@ -90,6 +109,7 @@ h4 {
 
 .primary {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .secondary {
   margin-top: 200px;
@@ -109,4 +129,24 @@ h4 {
   .contact-container {
     text-align: center;
   }
+}
+
+.row {
+  margin-top: 100px;
+  text-align: center;
+}
+.project-heading {
+  color: white;
+  font-family: "Domine", serif;
+  font-size: 50px;
+  margin-top: 20px;
+}
+.project-description {
+  color: white;
+  font-family: "Cutive Mono", monospace;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.project-image {
+  box-shadow: 0px 0px 20px 6px #d7f3ff;
 }
