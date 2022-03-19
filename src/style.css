@@ -63,6 +63,14 @@ p {
   color: #d7f3ff;
   text-shadow: 0 0 30px #86dbff;
 }
+.btn-3 {
+  color: #d7f3ff;
+  font-family: "Cutive Mono", monospace;
+}
+.btn-3:hover {
+  text-decoration: none;
+  color: #86dbff;
+}
 .sky-neon {
   color: #86dbff;
   background-color: #1d1d1d;
@@ -81,12 +89,20 @@ p {
     box-shadow: 0px 0px 20px 15px #3cc6d8;
     background-color: #d7f3ff;
   }
+  h3 {
+    font-size: 40px;
+  }
+  .contact-container {
+    text-align: center;
+  }
+  .project-heading {
+    font-size: 25px;
+  }
 }
 
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: #0087ca;
 }
 
 .hover-underline-animation:after {
@@ -114,6 +130,10 @@ p {
 .secondary {
   margin-top: 200px;
 }
+.tertiary {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
 .contact-container {
   margin-top: 50px;
 }
@@ -125,23 +145,15 @@ p {
   color: #fff;
   margin-top: 10px;
 }
-@media (max-width: 600px) {
-  .contact-container {
-    text-align: center;
-  }
-  .project-heading {
-    font-size: 40px;
-  }
-}
 
-.row {
+.portfolio {
   margin-top: 100px;
   text-align: center;
 }
 .project-heading {
   color: #fff;
   font-family: "Domine", serif;
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 20px;
 }
 .project-description {
@@ -152,4 +164,15 @@ p {
 }
 .project-image {
   box-shadow: 0px 0px 20px 6px #d7f3ff;
+}
+
+.introduction {
+  color: #d7f3ff;
+  font-family: "Cutive Mono", monospace;
+  font-size: 40px;
+}
+.tag-line {
+  color: white;
+  font-family: "Cutive Mono", monospace;
+  font-size: 25px;
 }
