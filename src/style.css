@@ -1,3 +1,6 @@
+.navbar-nav {
+  float: right !important;
+}
 body {
   background-color: #1d1d1d;
 }
@@ -72,7 +75,8 @@ p {
   color: #86dbff;
 }
 .sky-neon {
-  color: #86dbff;
+  color: #d7f3ff;
+  font-family: "Domine", serif;
   background-color: #1d1d1d;
   transition: 0.3s all ease-in;
   border: 1px solid #86dbff;
